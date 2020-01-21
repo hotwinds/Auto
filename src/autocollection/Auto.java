@@ -44,4 +44,8 @@ public class Auto {
         return Type;
     }
     
+    @Override
+    public String toString() {
+        return  Manufacturer + " " + Model +  " " +  Year + " " +  MotorCapacity + " " +  Type;
+    }
 }
